@@ -1,0 +1,229 @@
+/* Global Styles */
+
+#header_img { 
+    background-image: url(../Images/BREADMISC/ToppingsourDough.jpeg);
+    background-size:100%;
+    background-position: center;
+}
+
+.row{
+    width: 100%
+}
+
+#container {
+    background-color: #593202;
+    height:0;
+    list-style-type: none;
+}
+
+hr {
+    border: 2pt solid #593202;
+    border-radius: 5px;
+    width: 40%;
+}
+
+/* Mobile Styles */
+
+#button {
+    top: 40px;
+      left: 200px;
+      position: relative;
+      color:white;
+      font-size: 20pt;
+      font-family:fantasy;
+  }
+
+  .button:hover {
+    display: inline-block;
+    color: #593202;
+    background-color: #F2CAA7;
+    border-color:#A9ABA8;
+}
+
+nav ul {
+      list-style-type: none;
+  }
+
+nav li a {
+    display: block;
+    height: 50px;
+    line-height: 40px;
+    background-color: #F2CAA7;
+    color: #593202;
+    border: 8px double #593202;
+    text-decoration: none;
+    font-size: 20pt;
+    margin: 10px 100px auto;
+    text-align: center;
+    font-family: 'Shantell Sans', Semibold;
+}
+
+nav li a:hover {
+    background-color:#593202;
+    color: #F2CAA7;
+    border: 8px double white
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+    }
+
+.heading {
+    font-size: 20pt;
+    color: #593202;
+    font-family:fantasy, Semibold;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color:#593202;
+    font-family: fantasy, Semibold;
+    margin: 10px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+.col { 
+    width: 100%;
+    border-top: 10px solid #593202;
+    text-align: center;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #F2CAA7;
+    color: #593202;
+    text-align: center;
+    margin-top: 200px;
+    height: 50px;
+    padding: 10px
+}
+
+i class {
+    color: black;
+}
+
+#Footer_img { 
+    background-image: url(..//Images/Beginnerssourdough/footersourdough.jpeg);
+    background-size:100%;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+/* End Mobile Phone */
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+
+    #button {
+        top: 40px;
+          left:650px;
+          position: relative;
+          color:white;
+          font-size: 40pt;
+          font-family:fantasy;
+      }
+
+      .button:hover {
+        display: inline-block;
+        color: #593202;
+        background-color: #F2CAA7;
+        border-color:#A9ABA8;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding:20px;
+        margin: 10px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #F2CAA7;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+        border: 6px solid #593202;
+    }
+}
+/* end Tablet */
+
+/* Desktop styles */
+
+@media (min-width: 1024px) {
+
+    #button {
+          top: 100px;
+          left: 1100px;
+          position: relative;
+          color:white;
+          font-size: 70pt;
+      }
+    
+    nav {
+            width: 100%;
+            color: #F2CAA7;
+            background-color:#593202;
+        }
+
+        nav li {
+            display: inline-block;
+            width: 250px;
+        }
+
+        nav li a {
+            display: block;
+            height: 60px;
+            line-height: 55px;
+            background-color: #F2CAA7;
+            color: #593202;
+            border: 8px double #593202;
+            text-decoration: none;
+            margin: 10px 20px auto;
+            font-family: fantasy, Semibold;
+            font-size: 25pt;
+        }
+
+        .heading {
+            font-size: 2em;
+            color: #593202;
+            text-align: center;
+            font-family: fantasy, Semibold;
+            font-size: 25pt;
+        }
+
+        section{
+            margin-top: 100px;
+            height:100%;
+            width: 100%;
+        }
+
+        footer {
+            background-color: #F2CAA7;
+            margin-top: 500px;
+            color: #593202;
+        }
+
+    }
+/* End for Desktop */

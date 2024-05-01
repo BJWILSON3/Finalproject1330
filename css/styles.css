@@ -1,7 +1,7 @@
 /* Global Styles */
 
 #header_img { 
-    background-image: url(../Images/BREADMISC/ToppingsourDough.jpeg);
+    background-image: url(../Images/ToppingsourDough.jpeg);
     background-size:100%;
     background-position: center;
 }
@@ -116,7 +116,7 @@ i class {
 }
 
 #Footer_img { 
-    background-image: url(..//Images/Beginnerssourdough/footersourdough.jpeg);
+    background-image: url(..//Images/footersourdough.jpeg);
     background-size:100%;
     background-position: center;
     transform: rotate(180deg);

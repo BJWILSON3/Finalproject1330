@@ -33,7 +33,7 @@ hr {
       font-family:fantasy;
   }
 
-  .button:hover {
+.button:hover {
     display: inline-block;
     color: #593202;
     background-color: #F2CAA7;
@@ -146,6 +146,7 @@ i class {
     
     img {
         width: 100%;
+        height: 100%;
     }
     
     main {
